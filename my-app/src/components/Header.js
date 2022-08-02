@@ -2,8 +2,8 @@ import React from 'react';
 import Nav from './Nav';
 function Header() {
   return (
-    <div className="main-container">
-     <h1>Title</h1>
+    <div className="header">
+     <h1>Website Title</h1>
      <Nav></Nav>
     </div>
   );
