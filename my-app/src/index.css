@@ -13,15 +13,16 @@ code {
 }
 
 
-header {
+.header {
   display: flex;
   justify-content: space-between;
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   align-items: center;
   background-color: black;
   color: aliceblue;
   height: 6rem;
+  padding: 5px;
 }
 
 h1 {
@@ -37,14 +38,14 @@ nav ul {
   padding-bottom: 2rem;
 }
 
-nav a {
+.nav {
   text-decoration: none;
   color: aliceblue;
   padding: .5rem;
   font-size: 1.5rem;
 }
 
-nav a:hover {
+.nav a:hover {
   color:darkslategray;
   transition: .5s ease;
 }
@@ -131,7 +132,7 @@ aside {
   } 
 }
 
-Footer {
+.footer {
   display: flex;
   justify-content: center;
   font-family: 'Courier New', Courier, monospace;
