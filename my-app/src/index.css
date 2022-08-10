@@ -17,32 +17,46 @@ code {
   display: flex;
   justify-content: space-between;
   font-size: 2rem;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   align-items: center;
-  background-color: black;
+  background-image: url(../public/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   color: aliceblue;
-  height: 6rem;
+  height: 50rem;
   padding: 5px;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
-h1 {
+.h1 {
   margin:  0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0%;
 }
 
 nav ul {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   padding: .2rem;
   list-style: none;
-  margin:  0 2rem;
+  bottom: 0%;
   padding-bottom: 2rem;
 }
 
 .nav {
+  display: flex;
+  justify-content: flex-start;
   text-decoration: none;
   color: aliceblue;
   padding: .5rem;
-  font-size: 1.5rem;
+  font-size: 3rem;
+  bottom: 0%;
+  position: relative;
+
+  /* align-items: flex-end; */
 }
 
 .nav a:hover {
@@ -84,7 +98,7 @@ transition: .5s ease;
 background-color: #008CBA;
 }
 
-.card1 {
+/* .card1 {
   background-image: url(https://images.squarespace-cdn.com/content/v1/580a75e103596ef7c3a8ed74/1630542655024-N7OUQHJ4LWALX1NB69YP/Becoming+Invisible.jpg?format=750w); 
   
 }
@@ -93,7 +107,7 @@ background-color: #008CBA;
 }
 .card3 {
   background-image: url(https://images.squarespace-cdn.com/content/v1/580a75e103596ef7c3a8ed74/1616215216693-ZIXP863TESBR3J1LBCR3/blm.jpg?format=2500w);
-}
+} */
 
 .cardheader {
   display: flex;
