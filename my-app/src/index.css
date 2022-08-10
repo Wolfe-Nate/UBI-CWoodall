@@ -16,17 +16,18 @@ code {
 .header {
   display: flex;
   justify-content: space-between;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   align-items: center;
-  background-image: url(../public/banner.jpg);
+  background-image: url(../public/banner_thin.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  color: aliceblue;
-  height: 50rem;
+  color: #2f1e16;
+  height: 100rem;
   padding: 5px;
   flex-direction: column;
   flex-wrap: nowrap;
+  bottom: 10%;
 }
 
 .h1 {
@@ -50,7 +51,7 @@ nav ul {
   display: flex;
   justify-content: flex-start;
   text-decoration: none;
-  color: aliceblue;
+  color: #231610;
   padding: .5rem;
   font-size: 3rem;
   bottom: 0%;
@@ -131,6 +132,19 @@ aside {
   float: left;
   padding: 1rem 0;
   font-variant: small-caps;
+}
+
+.vision {
+  width: 50rem;
+  top: 15%;
+  color: #4b3023;
+  display: flex;
+  float: left;
+  padding: 1rem 0;
+  font-variant: small-caps;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .about {
