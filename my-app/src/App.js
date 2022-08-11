@@ -14,10 +14,10 @@ function App() {
       <Header></Header>
       <BrowserRouter>
       <Routes>
-<Route
+{/* <Route
 path='/' element={<Home/>}
-/>
-<Route
+/> */}
+{/* <Route
 path='/fundraising' element={<Fundraising/>}
 />
 <Route
@@ -27,11 +27,13 @@ path='/contact' element={<Contact/>}
 path='/mission' element={<Mission/>}
 />
 <Route
-path='/news' element={<News/>}
-/>
+path='/news' element={<News/>} */}
+{/* /> */}
+
       </Routes>
+      {/* <Footer></Footer> */}
       </BrowserRouter>
-      <Footer></Footer>
+      
     </div>
   );
 }
