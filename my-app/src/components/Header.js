@@ -2,14 +2,38 @@ import React from 'react';
 import Nav from './Nav';
 import Image from 'react-bootstrap/Button';
 import Footer from './Footer';
+// import Apple from '../Icons'
 function Header() {
   return (
     
     <div className="header">
-     <Nav></Nav>
-     
-     <br/>
-<br/>
+      <Nav></Nav>
+    
+<div className='container'> 
+  <div className='stats'>
+  <h2>WHAT IS UNIVERSAL BASIC INCOME? </h2>
+
+<h4>A society that guarantees every member a periodic payment, enough to enable life in dignity without the necessity to provide anything in return. 
+</h4>
+<div className='stats'>
+    <div className='li'><img src='icons/time.png' width={100} height={100} alt="time"/>
+      <div className='text'>PERIODIC <br/> It is a recurring payment (for example, every month) instead of a one-off grant.</div>
+    </div>
+    <div><img src='icons/coin.png' width={100} height={100} alt="coin"/>
+    <div className='text'>CASH PAYMENT <br/> It is paid in cash, allowing receiptients to convert their benefits into whatever they may like.</div>
+    </div>
+    <div><img src='icons/apple.png' width={100} height={100} alt="apple"/>
+    <div className='text'>UNIVERSAL <br/> It is paid to all, not targeted to a specific population.</div>
+    </div>
+    <div><img src='icons/puzzle.png' width={100} height={100} alt="puzzle"/>
+    <div className='text'>INDIVIDUAL<br/> It is paid on an individual basis (versus house-hold based).</div>
+    </div>
+    <div><img src='icons/shield.png' width={100} height={100} alt="shield"/>
+    <div className='text'>UNCONDITIONAL <br/> It involves no work requirements or sanctions; it is accessible to those in and out of work, voluntarily or not.</div>
+    </div>
+    </div>
+  </div>
+</div>
      <div className='vision'>Vision: A society guaranteeing every member a periodic payment, enough to enable life in dignity without the necessity to provide anything in return.
 <br/>
 <br/>
@@ -31,7 +55,7 @@ Experienced in the method of Deep Canvassing, our team believes in the capacity 
 
 Put the link to the case statement here. (PDF)
 
-Our Approach: 
+<h3>Our Approach: </h3>
 
 We want to implement an unconditional basic income in Germany 
  
@@ -43,20 +67,20 @@ In Germany, we first want to conduct Deep Canvassing in 6 regions (2 rural, 2 su
 </div>
 
 <div className='vision'>
-TAKE ACTION 
+<h2>TAKE ACTION </h2>
 
 Thank you for your interest in supporting our campaign. As a grassroots organization, we are always looking for people who want to get involved and be a part of bringing (Organization name here)  into reality. Please find below the ways you can help.
 
-VOLUNTEER
+<h2>VOLUNTEER</h2>
 Join one of our Deep Canvassing teams in key areas around Germany. Click here for all current opportunities.
 
-DONATE
+<h2>DONATE</h2>
 Thank you for considering donating to our campaign. Our campaign runs mostly on individual donations by people like you who want to see a Universal Basic Income come to Germany. Click here to donate.
 
-EMAIL SIGN UP
+<h2>EMAIL SIGN UP</h2>
 Add your email to our supporters’ list so you can receive updates from our campaign, such as ongoing projects and upcoming opportunities to support us in your area.
 
-WORK WITH US
+<h2>WORK WITH US</h2>
 You can find any open employment opportunities here.
 
 </div>
