@@ -6,7 +6,7 @@ import Footer from './Footer';
 function Header() {
   return (
     
-    <div className="header">
+    <div>
       <Nav></Nav>
     
 <div className='container'> 
@@ -18,36 +18,47 @@ function Header() {
 <div className='what-is-ubi' >
     <div
     
-    ><img src='icons/time.png' width={100} height={100} alt="time"/>
+    ><img src='icons/time copy.png' width={100} height={100} alt="time"/>
       <div className='text'>PERIODIC <br/> It is a recurring payment (for example, every month) instead of a one-off grant.</div>
     </div>
-    <div><img src='icons/coin.png' width={100} height={100} alt="coin"/>
+    <div><img src='icons/coin copy.png' width={100} height={100} alt="coin"/>
     <div className='text'>CASH PAYMENT <br/> It is paid in cash, allowing receiptients to convert their benefits into whatever they may like.</div>
     </div>
-    <div><img src='icons/apple.png' width={100} height={100} alt="apple"/>
+    <div><img src='icons/world copy.png' width={100} height={100} alt="apple"/>
     <div className='text'>UNIVERSAL <br/> It is paid to all, not targeted to a specific population.</div>
     </div>
-    <div><img src='icons/puzzle.png' width={100} height={100} alt="puzzle"/>
+    <div><img src='icons/puzzle copy.png' width={100} height={100} alt="puzzle"/>
     <div className='text'>INDIVIDUAL<br/> It is paid on an individual basis (versus house-hold based).</div>
     </div>
-    <div><img src='icons/shield.png' width={100} height={100} alt="shield"/>
+    <div><img src='icons/scales copy.png' width={100} height={100} alt="shield"/>
     <div className='text'>UNCONDITIONAL <br/> It involves no work requirements or sanctions; it is accessible to those in and out of work, voluntarily or not.</div>
     </div>
     </div>
   </div>
 </div>
-     <div className='vision'>
 
-A transformed society of free individuals who have options, express their creative capacities, pursue meaningful action, spend more time with their families, and give back to society. 
 <br/>
-<br/>
-A fairer and more equitable world as a result of others emulating the German model of UBI after it has proven successful.
-<br/>
-<br/>
-Through new methods of political canvassing and by promoting a new narrative around UBI, we will show citizens and leaders alike that this is the detour we must take to prepare ourselves for the future and create a more equitable world.
+
+<div className='content-vision'>
+  <div>
+  We have the potential to hand our children a world worth living in but must take the necessary steps to get there.  
+    
+  </div>
+
+<div className='content-vision-points'>
+  <div>
+  A transformed society of free individuals who have options, pursue meaningful action, spend more time with their families, express their creative capacities, and give back to society.
+</div>
+<div>
+A fairer and more equitable Germany and world as a result of others emulating the German model of UBI after it has proven successful.
+</div>
+<div>
+Through new methods of political canvassing and by promoting a new narrative around UBI, we will show citizens and leaders alike that this is the detour we must take to prepare ourselves for the future and create a more equitable and sustainable world for generations to come.
+</div>
+</div>
     </div>
 
-<div className='vision'>
+{/* <div className='vision'>
 How to Take Action: Please join us in this fight for a better Germany and a better world. We need help preparing our campaign for its initial launch and you can assist by fundraising, assisting with developing a narrative and financing models for UBI, or by taking part in our deep canvassing campaign in 2023. There is potential for other forms of collaboration or ways to be a part of the team and we are open to ideas so please reach out if you have any. Please contact cmwoodall11@gmail.com if you have any questions or would like to speak to someone about collaborating on this campaign. 
 
 About: (Name of organization) is the brainchild of European and American activists who sought to find a path towards a more equitable and fair economy. All of us had often felt exasperated by the sheer number of social, economic, environmental, and political problems plaguing society in our era. We sought to come up with a policy that, all though it may not fix all, will address enough of them in meaningful ways, both directly and indirectly. Lastly, it is simple enough to both understand and implement. We believe that if UBI is successful, it can turn the tide and shift our world in a more promising direction.
@@ -63,11 +74,11 @@ We want to implement an unconditional basic income in Germany
 The core component of our campaign is Deep Canvassing.
 Deep Canvassing is a form of open conversation that combines empathy, storytelling, curiosity (asking questions and seeking understanding), and a shared self-interest in one-on-one conversations to help provide an understanding of an issue through engaging their emotions and getting them to reflect. This approach is used primarily in the U.S. and has proven successful in changing attitudes about political issues. At least 10% of the people spoken to using the Deep Canvassing method change in the long term. With traditional campaigning, the rate is 1% and is not long-lasting. This is because they try to push data and statistics rather than connecting and having a conversation with the individual.
 
-In Germany, we first want to conduct Deep Canvassing in 6 regions (2 rural, 2 suburban/small towns, and 2 metropolitans) to show that unconditional basic income is a winning issue everywhere. Afterward, we want to scale up our activities and approach parties and individuals to make the BGE the topic of the next election campaign.
+In Germany, we first want to conduct Deep Canvassing in 6 regions (2 rural, 2 suburban/small towns, and 2 metropolitans) to show that unconditional basic income is a winning issue everywhere. Afterward, we want to scale up our activities and approach parties and individuals to make the BGE the topic of the next election campaign. */}
 
-</div>
+{/* </div> */}
 
-<div className='vision'>
+<div >
 <h2>TAKE ACTION </h2>
 
 Thank you for your interest in supporting our campaign. As a grassroots organization, we are always looking for people who want to get involved and be a part of bringing (Organization name here)  into reality. Please find below the ways you can help.
