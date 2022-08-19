@@ -10,13 +10,15 @@ function Header() {
       <Nav></Nav>
     
 <div className='container'> 
-  <div className='stats'>
+  <div className='what-is-ubi'>
   <h2>WHAT IS UNIVERSAL BASIC INCOME? </h2>
 
 <h4>A society that guarantees every member a periodic payment, enough to enable life in dignity without the necessity to provide anything in return. 
 </h4>
-<div className='stats'>
-    <div className='li'><img src='icons/time.png' width={100} height={100} alt="time"/>
+<div className='what-is-ubi' >
+    <div
+    
+    ><img src='icons/time.png' width={100} height={100} alt="time"/>
       <div className='text'>PERIODIC <br/> It is a recurring payment (for example, every month) instead of a one-off grant.</div>
     </div>
     <div><img src='icons/coin.png' width={100} height={100} alt="coin"/>
@@ -34,9 +36,8 @@ function Header() {
     </div>
   </div>
 </div>
-     <div className='vision'>Vision: A society guaranteeing every member a periodic payment, enough to enable life in dignity without the necessity to provide anything in return.
-<br/>
-<br/>
+     <div className='vision'>
+
 A transformed society of free individuals who have options, express their creative capacities, pursue meaningful action, spend more time with their families, and give back to society. 
 <br/>
 <br/>
