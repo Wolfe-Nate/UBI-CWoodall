@@ -40,8 +40,8 @@ function Header() {
 <br/>
 
 <div className='content-vision'>
-  <div>
-  We have the potential to hand our children a world worth living in but must take the necessary steps to get there.  
+  <div id='mission'>
+  We have the potential to create a system that allows us to hand the future to our children rather than handing our children a future decided for them.  
     
   </div>
 
@@ -53,11 +53,40 @@ function Header() {
 A fairer and more equitable Germany and world as a result of others emulating the German model of UBI after it has proven successful.
 </div>
 <div>
-Through new methods of political canvassing and by promoting a new narrative around UBI, we will show citizens and leaders alike that this is the detour we must take to prepare ourselves for the future and create a more equitable and sustainable world for generations to come.
+Through new methods of political canvassing and by promoting a new narrative around UBI, we will show citizens and leaders alike that this is the detour we must take to prepare ourselves for the future.
 </div>
 </div>
     </div>
-
+    <br/>
+    <br/>
+    <br/>
+<div className='canvassing-container'>
+<table>
+  <tr>
+    <th>Traditional Canvassing</th>
+    <th>Deep Canvassing</th>
+  </tr>
+  <br/>
+  <tr>
+    <td>Campaigns control the message by sticking to the script</td>
+    <td>Campaigns use a script to help build rapport with voters</td>
+  </tr>
+  <tr>
+    <td>Canvasser delivers a message stating facts and statistics about why the voter should support their cause</td>
+    <td>Canvasser starts a two-way conversation</td>
+  </tr>
+  <tr>
+    <td>Under 5 minutes</td>
+    <td>Between 10-20 minutes</td>
+  </tr>
+  <tr>
+    <td>Suggests issues of concern to voters</td>
+    <td>Learns what matters to voters</td>
+  </tr>
+</table>
+<br/>
+<br/>
+</div>
 {/* <div className='vision'>
 How to Take Action: Please join us in this fight for a better Germany and a better world. We need help preparing our campaign for its initial launch and you can assist by fundraising, assisting with developing a narrative and financing models for UBI, or by taking part in our deep canvassing campaign in 2023. There is potential for other forms of collaboration or ways to be a part of the team and we are open to ideas so please reach out if you have any. Please contact cmwoodall11@gmail.com if you have any questions or would like to speak to someone about collaborating on this campaign. 
 
