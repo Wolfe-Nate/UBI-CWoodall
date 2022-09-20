@@ -1,15 +1,15 @@
-import React from 'react';
+// import React from 'react';
 
-function Footer() {
-  return (
-    <div className="footer">
-     <h4>
-      <a className="nav" href={"https://github.com/lukerenoe"}>Social-media-link</a>
-      <a className="nav" href={"https://www.lrenoe.com/"}>Social-media-link</a>
-      <a className="nav" href={"https://www.linkedin.com/in/luke-renoe-28b0aaa3/"}>LinkdIn</a>
-    </h4>
-    </div>
-  );
-}
+// function Footer() {
+//   return (
+//     <div className="footer">
+     
+//       <a className="nav" href={"https://github.com/lukerenoe"}>Social-media-link</a>
+//       <a className="nav" href={"https://www.lrenoe.com/"}>Social-media-link</a>
+//       <a className="nav" href={"https://www.linkedin.com/in/luke-renoe-28b0aaa3/"}>LinkdIn</a>
+    
+//     </div>
+//   );
+// }
 
-export default Footer;
+// export default Footer;
