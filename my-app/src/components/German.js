@@ -1,16 +1,17 @@
 import React from 'react';
-import Nav from './Nav';
-import MediaQuery from 'react-responsive'
+
+import Nav from './Nav'; //english nav bar
+
 function German() {
-  return (
-    <div className="main-container">
-<div> 
-<a className='translate' href="/">Übersetzen</a>
-<Nav></Nav>
-            <div className='container'>
+    return (
+        <div>
+            <Nav></Nav>
+
+            <div className='main-container'>
                 <div className='what-is-ubi'>
                     <h2>WAS IST DAS BEDINGUNGSLOSE GRUNDEINKOMMEN? </h2>
-                    
+
+
                     <h4>Eine Gesellschaft, die es jedem Mitglied garantiert Zyklische Zahlungen zu erhalten, die
                         ausreichen in Würde zu leben, ohne etwas beitragen zu müssen.
                     </h4>
@@ -22,6 +23,7 @@ function German() {
                                 Förderung.
                             </div>
                         </div>
+
 
                         <div><img src='icons/coin copy.png' width={100} height={100} alt="coin"/>
                             <div className='text'>
@@ -190,12 +192,10 @@ function German() {
 
             </div>
 
+            </div>
 
-    
-</div>
-
-    </div>
-  );
+        </div>
+    );
 }
 
 export default German;
