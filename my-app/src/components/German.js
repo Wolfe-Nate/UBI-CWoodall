@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Nav from './Nav'; //english nav bar
 
 function German() {
@@ -9,6 +10,7 @@ function German() {
             <div className='main-container'>
                 <div className='what-is-ubi'>
                     <h2>WAS IST DAS BEDINGUNGSLOSE GRUNDEINKOMMEN? </h2>
+
 
                     <h4>Eine Gesellschaft, die es jedem Mitglied garantiert Zyklische Zahlungen zu erhalten, die
                         ausreichen in Würde zu leben, ohne etwas beitragen zu müssen.
@@ -21,6 +23,7 @@ function German() {
                                 Förderung.
                             </div>
                         </div>
+
 
                         <div><img src='icons/coin copy.png' width={100} height={100} alt="coin"/>
                             <div className='text'>
@@ -126,7 +129,7 @@ function German() {
                 <div className='support'>
 
                     <div className='support-points'>
-                        <a className='support-points-img' href="http://www.google.com">
+                        <a className='support-points-img' href="http://eepurl.com/icEbcT">
                             <img src='icons/volunteer.png' alt="volunteer"/>
                         </a>
                         <div className='support-points-title'>VOLUNTEER</div>
@@ -141,7 +144,7 @@ function German() {
                         die das Bedingungslose Grundeinkommen in Deutschland realisieren möchten.
                     </div>
                     <div className='support-points'>
-                        <a className='support-points-img' href="http://www.mailchimp.com">
+                        <a className='support-points-img' href="http://eepurl.com/icEbcT">
                             <img src='icons/email.png' alt="email"/>
                         </a>
                         <div className='support-points-title'>EMAIL ANMELDEN</div>
@@ -156,37 +159,26 @@ function German() {
             <div className='about-us'>
                 <div>
                     <img
-                        src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqwX4NnEoLQzUoRBuuXY-51GmaYemDy6miXdjTPaNxAg&s'
+                        src='icons/tom.jpg'
                         width={300} alt="person"/>
-                    <div className='bios-name'>Connor Woodall</div>
-                    <div className='bio'>Connor is an activist and organizer who has found his passion in this work and
-                        the people in these spaces. He has worked in non-profit and international organizations and has
-                        spent time in local, county, and state governments. With a Master's in Political Science, he has
-                        become a huge proponent of system thinking and innovative ways to design our world to move
-                        Humanity to a more hopeful future.
+                    <div className='bios-name'>Tom Peterson</div>
+                    <div className='bio'>I am the Founder and Lead of this campaign. I am 21 years old and recently moved to Berlin to work toward promoting a UBI. My political experience is primarily as an activist here in Germany, where I have been an organizer for climate strikes in Bad Oldesloe, where I grew up. I have acquired vital experiences and resources from building a Deep Canvassing campaign at Zukunftswahl/Justice is Global Europe and my internship with Justice is Global US. In JIG US, I was a team lead on our US-China Narratives Deep Canvassing project. My goal is to see a world less tied to money and more tied to individual, community, and world progress.
                     </div>
                 </div>
                 <div>
                     <img
-                        src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqwX4NnEoLQzUoRBuuXY-51GmaYemDy6miXdjTPaNxAg&s'
+                        src='icons/daphne.jpg'
                         width={300} alt="person"/>
-                    <div className='bios-name'>Connor Woodall</div>
-                    <div className='bio'>Connor is an activist and organizer who has worked in non-profit and
-                        international organizations. He has spent time in local, county, and state governments. With a
-                        Master's in Political Science, he has become a huge proponent of system thinking and innovative
-                        ways to design our world to move Humanity to a more hopeful future.
+                    <div className='bios-name'>Daphne Nounesi</div>
+                    <div className='bio'>I am 27 and based in Greece and Canada. I have always been concerned with socio-political affairs and matters of economic justice and I have a Master’s degree in Political Science from the Geneva Graduate Institute. I have experience as a deep canvasser with JIG/People’s Action and have worked with several grassroots and international organizations in grants and project management, administration, diplomacy, and research. As the campaign’s Project Manager, I worked to develop organizational strategy and oversaw task management
                     </div>
                 </div>
                 <div>
                     <img
-                        src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqwX4NnEoLQzUoRBuuXY-51GmaYemDy6miXdjTPaNxAg&s'
+                        src='icons/connor.jpg'
                         width={300} alt="person"/>
                     <div className='bios-name'>Connor Woodall</div>
-                    <div className='bio'>Connor is an activist and organizer who has found his passion in this work and
-                        the people in these spaces. He has worked in non-profit and international organizations and has
-                        spent time in local, county, and state governments. With a Master's in Political Science, he has
-                        become a huge proponent of system thinking and innovative ways to design our world to move
-                        Humanity to a more hopeful future.
+                    <div className='bio'>I am 28 and from Rhode Island, USA. My role on this team is the Deep Canvassing Coordinator as well as the Head of Narrative Development. I have a Master’s in Political Science from the University of Colorado Denver. My experiences range from local and state government as well as national and international non-profit progressive organizing. I bring to this team my knowledge of the nuances of human systems, my experience with Deep Canvassing, and my ability to influence others to think differently.
                     </div>
                 </div>
             </div>
@@ -197,6 +189,8 @@ function German() {
                 <a className="bottom-nav" href={"https://github.com/lukerenoe"}>Social-media-link</a>
                 <a className="bottom-nav" href={"https://www.lrenoe.com/"}>Social-media-link</a>
                 <a className="bottom-nav" href={"https://www.linkedin.com/in/luke-renoe-28b0aaa3/"}>LinkdIn</a>
+
+            </div>
 
             </div>
 

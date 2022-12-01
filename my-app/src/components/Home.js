@@ -1,15 +1,22 @@
 import React from 'react';
 import Nav from './Nav';
+// import MediaQuery from 'react-responsive'
+
 function Home() {
   return (
-    
     <div>
+      <div>
+     <a className='translate' href="/German">Translate</a>
+     </div>
       <Nav></Nav>
-    
+       
+
 <div className='container'> 
+
   <div className='what-is-ubi'>
   <h2>WHAT IS UNIVERSAL BASIC INCOME? </h2>
-
+  {/* <button><Link to="/German"> German </Link></button> */}
+  
 <h4>A society that guarantees every member a periodic payment, enough to enable life in dignity without the necessity to provide anything in return. 
 </h4>
 <div className='what-is-ubi' >
@@ -90,14 +97,14 @@ Through new methods of political canvassing and by promoting a new narrative aro
 
 <div className='support-title'  id='support'>
   <h1>SUPPORT US and STAY CONNECTED</h1>
-<div>Thank you for your interest in supporting our campaign. As a grassroots organization, we are always looking for people who want to get involved and be a part of bringing *(((Organization name here)))*  into reality. Please find below the ways you can help.
+<div>Thank you for your interest in supporting our campaign. As a grassroots organization, we are always looking for people who want to get involved and be a part of bringing Grundeinkommen's Graswurzel into reality. Please find below the ways you can help.
 </div>
 </div>
 <div className='support-container'>
 <div className='support'>
   
 <div className='support-points'>
-<a  className='support-points-img' href="http://www.google.com">
+<a  className='support-points-img' href="http://eepurl.com/icEbcT">
   <img src='icons/volunteer.png' alt="volunteer"/>
 </a>
 <div className='support-points-title'>VOLUNTEER</div>
@@ -111,7 +118,7 @@ Join one of our Deep Canvassing teams in key areas around Germany.
 Our campaign runs mostly on individual donations by people like you who want to see a Universal Basic Income come to Germany. 
 </div>
 <div className='support-points'>
-<a  className='support-points-img' href="http://www.mailchimp.com">
+<a  className='support-points-img' href="http://eepurl.com/icEbcT">
   <img src='icons/email.png' alt="email"/>
 </a>
 <div className='support-points-title'>EMAIL SIGN UP</div>
@@ -123,19 +130,19 @@ Add your email to our supporters' list to receive updates from our campaign, suc
 
 <div className='about-us'>
 <div>
-<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqwX4NnEoLQzUoRBuuXY-51GmaYemDy6miXdjTPaNxAg&s' width={300} alt="person"/>
-<div className='bios-name'>Connor Woodall</div>
-<div className='bio'>Connor is an activist and organizer who has found his passion in this work and the people in these spaces. He has worked in non-profit and international organizations and has spent time in local, county, and state governments. With a Master's in Political Science, he has become a huge proponent of system thinking and innovative ways to design our world to move Humanity to a more hopeful future.</div>
+<img src='icons/tom.jpg' width={400} alt="person"/>
+<div className='bios-name'>Tom Peterson</div>
+<div className='bio'>I am the Founder and Lead of this campaign. I am 21 years old and recently moved to Berlin to work toward promoting a UBI. My political experience is primarily as an activist here in Germany, where I have been an organizer for climate strikes in Bad Oldesloe, where I grew up. I have acquired vital experiences and resources from building a Deep Canvassing campaign at Zukunftswahl/Justice is Global Europe and my internship with Justice is Global US. In JIG US, I was a team lead on our US-China Narratives Deep Canvassing project. My goal is to see a world less tied to money and more tied to individual, community, and world progress.  </div>
 </div>
 <div>
-<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqwX4NnEoLQzUoRBuuXY-51GmaYemDy6miXdjTPaNxAg&s' width={300} alt="person"/>
-<div className='bios-name'>Connor Woodall</div>
-<div className='bio'>Connor is an activist and organizer who has worked in non-profit and international organizations. He has spent time in local, county, and state governments. With a Master's in Political Science, he has become a huge proponent of system thinking and innovative ways to design our world to move Humanity to a more hopeful future.</div>
+<img src='icons/daphne.jpg' width={400} alt="person"/>
+<div className='bios-name'>Daphne Nounesi</div>
+<div className='bio'>I am 27 and based in Greece and Canada. I have always been concerned with socio-political affairs and matters of economic justice and I have a Master’s degree in Political Science from the Geneva Graduate Institute. I have experience as a deep canvasser with JIG/People’s Action and have worked with several grassroots and international organizations in grants and project management, administration, diplomacy, and research. As the campaign’s Project Manager, I worked to develop organizational strategy and oversaw task management.</div>
 </div>
 <div>
-<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqwX4NnEoLQzUoRBuuXY-51GmaYemDy6miXdjTPaNxAg&s' width={300} alt="person"/>
+<img src='icons/connor.jpg' width={400} alt="person"/>
 <div className='bios-name'>Connor Woodall</div>
-<div className='bio'>Connor is an activist and organizer who has found his passion in this work and the people in these spaces. He has worked in non-profit and international organizations and has spent time in local, county, and state governments. With a Master's in Political Science, he has become a huge proponent of system thinking and innovative ways to design our world to move Humanity to a more hopeful future.</div>
+<div className='bio'>I am 28 and from Rhode Island, USA. My role on this team is the Deep Canvassing Coordinator as well as the Head of Narrative Development. I have a Master’s in Political Science from the University of Colorado Denver. My experiences range from local and state government as well as national and international non-profit progressive organizing. I bring to this team my knowledge of the nuances of human systems, my experience with Deep Canvassing, and my ability to influence others to think differently.</div>
 </div>
 </div>
 
@@ -149,6 +156,7 @@ Add your email to our supporters' list to receive updates from our campaign, suc
     </div>
     
     </div>
+    
   );
 }
 
