@@ -1,19 +1,22 @@
 import React from 'react';
 import Nav from './Nav';
-import {Link} from "react-router-dom";
+// import MediaQuery from 'react-responsive'
+
 function Home() {
   return (
     <div>
-     
+      <div>
+     <a className='translate' href="/German">Translate</a>
+     </div>
       <Nav></Nav>
        
 
-
 <div className='container'> 
+
   <div className='what-is-ubi'>
   <h2>WHAT IS UNIVERSAL BASIC INCOME? </h2>
   {/* <button><Link to="/German"> German </Link></button> */}
-  <a href="/German">Translate</a>
+  
 <h4>A society that guarantees every member a periodic payment, enough to enable life in dignity without the necessity to provide anything in return. 
 </h4>
 <div className='what-is-ubi' >
@@ -94,14 +97,14 @@ Through new methods of political canvassing and by promoting a new narrative aro
 
 <div className='support-title'  id='support'>
   <h1>SUPPORT US and STAY CONNECTED</h1>
-<div>Thank you for your interest in supporting our campaign. As a grassroots organization, we are always looking for people who want to get involved and be a part of bringing *(((Organization name here)))*  into reality. Please find below the ways you can help.
+<div>Thank you for your interest in supporting our campaign. As a grassroots organization, we are always looking for people who want to get involved and be a part of bringing Grundeinkommen's Graswurzel into reality. Please find below the ways you can help.
 </div>
 </div>
 <div className='support-container'>
 <div className='support'>
   
 <div className='support-points'>
-<a  className='support-points-img' href="http://www.google.com">
+<a  className='support-points-img' href="http://eepurl.com/icEbcT">
   <img src='icons/volunteer.png' alt="volunteer"/>
 </a>
 <div className='support-points-title'>VOLUNTEER</div>
@@ -115,7 +118,7 @@ Join one of our Deep Canvassing teams in key areas around Germany.
 Our campaign runs mostly on individual donations by people like you who want to see a Universal Basic Income come to Germany. 
 </div>
 <div className='support-points'>
-<a  className='support-points-img' href="http://www.mailchimp.com">
+<a  className='support-points-img' href="http://eepurl.com/icEbcT">
   <img src='icons/email.png' alt="email"/>
 </a>
 <div className='support-points-title'>EMAIL SIGN UP</div>

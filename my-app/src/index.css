@@ -14,7 +14,41 @@ body {
   padding: 5px;
   flex-direction: column;
   flex-wrap: nowrap;
+  
 }
+
+@media (max-width: 550px){
+  body{  
+    display: block;
+    font-size: large;
+  } 
+  
+}
+
+/* @media (min-width: 390px){
+  .about-us > *{
+    padding: 0%;
+    display: flex;
+}
+} */
+
+@media (max-width: 390px){
+  .about-us{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+  }
+  .support{
+    flex-wrap: wrap;
+  }
+  .content-vision{
+    flex-wrap: wrap;
+  }
+  .text {
+    height: 150px;
+  }
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -22,6 +56,19 @@ code {
 }
 
 
+
+.translate {
+  display: flex;
+  position: fixed;
+  text-decoration: none;
+  width: 97%;
+ color: #beedf4;
+  margin-right: 1em;
+  text-shadow: 0px 0px 7px #beedf4;
+  flex-direction: row-reverse;
+  top: 0em;
+  font-size: 1em;
+}
 
 .what-is-ubi {
   display: flex;
@@ -70,7 +117,7 @@ code {
 }
 
 .text {
-  height: 100px;
+  /* height: 100px; */
   width: 175px;
   display: flex;
   flex-direction: column;
