@@ -1,14 +1,5 @@
 import React from 'react';
 import Nav from './Nav';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-// import Image from 'react-bootstrap/Button';
-// import Footer from './Footer';
-// import Apple from '../Icons'
 
 function Header() {
   return (
@@ -26,23 +17,23 @@ function Header() {
 <h4>A society that guarantees every member a periodic payment, enough to enable life in dignity without the necessity to provide anything in return. 
 </h4>
 <div className='what-is-ubi' >
-    <div><img src='icons/time copy.png' width={100} height={100} alt="time"/>
+    <div><img src='public/icons/time copy.png' width={100} height={100} alt="time"/>
       <div className='text'> <div className='text-title'>PERIODIC</div>  It is a recurring payment (for example, every month) instead of a one-off grant.</div>
     </div>
 
-    <div><img src='icons/coin copy.png' width={100} height={100} alt="coin"/>
+    <div><img src='public/icons/coin copy.png' width={100} height={100} alt="coin"/>
     <div className='text'><div className='text-title'>CASH PAYMENT</div>  It is paid in cash, allowing receiptients to convert their benefits into whatever they may like.</div>
     </div>
 
-    <div><img src='icons/world copy.png' width={100} height={100} alt="apple"/>
+    <div><img src='public/icons/world copy.png' width={100} height={100} alt="apple"/>
     <div className='text'><div className='text-title'>UNIVERSAL</div>  It is paid to all, not targeted to a specific population.</div>
     </div>
 
-    <div><img src='icons/puzzle copy.png' width={100} height={100} alt="puzzle"/>
+    <div><img src='public/icons/puzzle copy.png' width={100} height={100} alt="puzzle"/>
     <div className='text'><div className='text-title'>INDIVIDUAL</div> It is paid on an individual basis (versus house-hold based).</div>
     </div>
 
-    <div><img src='icons/scales copy.png' width={100} height={100} alt="shield"/>
+    <div><img src='public/icons/scales copy.png' width={100} height={100} alt="shield"/>
     <div className='text'><div className='text-title'>UNCONDITIONAL</div>  It involves no work requirements or sanctions; it is accessible to those in and out of work, voluntarily or not.</div>
     </div>
     </div>
@@ -111,21 +102,21 @@ Through new methods of political canvassing and by promoting a new narrative aro
   
 <div className='support-points'>
 <a  className='support-points-img' href="http://www.google.com">
-  <img src='icons/volunteer.png' alt="volunteer"/>
+  <img src='public/icons/volunteer.png' alt="volunteer"/>
 </a>
 <div className='support-points-title'>VOLUNTEER</div>
 Join one of our Deep Canvassing teams in key areas around Germany.
 </div>
 <div className='support-points'>
 <a  className='support-points-img' href="http://www.google.com">
-  <img src='icons/donate.png' alt="donate"/>
+  <img src='public/icons/donate.png' alt="donate"/>
 </a>
 <div className='support-points-title'>DONATE</div>
 Our campaign runs mostly on individual donations by people like you who want to see a Universal Basic Income come to Germany. 
 </div>
 <div className='support-points'>
 <a  className='support-points-img' href="http://www.mailchimp.com">
-  <img src='icons/email.png' alt="email"/>
+  <img src='public/icons/email.png' alt="email"/>
 </a>
 <div className='support-points-title'>EMAIL SIGN UP</div>
 Add your email to our supporters' list to receive updates from our campaign, such as ongoing projects and upcoming opportunities to support us in your area.

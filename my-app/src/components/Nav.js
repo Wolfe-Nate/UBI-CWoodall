@@ -1,6 +1,6 @@
 import React from 'react';
 // import German from './German';
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 // import './components.css'
 function Nav() {
   return (
