@@ -1,14 +1,5 @@
 import React from 'react';
 import Nav from './Nav';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-// import Image from 'react-bootstrap/Button';
-// import Footer from './Footer';
-// import Apple from '../Icons'
 
 function Header() {
   return (
