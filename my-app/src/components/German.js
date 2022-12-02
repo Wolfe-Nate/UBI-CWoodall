@@ -194,7 +194,7 @@ function German() {
 
             </div>
 
-        </div>
+    
     );
 }
 
