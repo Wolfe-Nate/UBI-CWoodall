@@ -19,10 +19,7 @@ exact path='/German' element={<German/>}
 <Route
 exact path='/' element={<Home/>}
 />
-
-
       </Routes>
-      {/* <Footer></Footer> */}
       </BrowserRouter>
       
     </div>
