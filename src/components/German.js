@@ -130,7 +130,7 @@ function German() {
 
                     <div className='support-points'>
                         <a className='support-points-img' href="http://eepurl.com/icEbcT">
-                            <img url='volunteer.png' alt="volunteer"/>
+                            <img src='volunteer.png' alt="volunteer"/>
                         </a>
                         <div className='support-points-title'>VOLUNTEER</div>
                         Tritt einem unserer Deep Canvassing Gruppen in Schlüsselgebieten in Deutschland bei.

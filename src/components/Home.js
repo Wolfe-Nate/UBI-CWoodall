@@ -1,6 +1,5 @@
 import React from 'react';
 import Nav from './Nav';
-// import MediaQuery from 'react-responsive'
 
 function Home() {
   return (
