@@ -16,7 +16,7 @@ function German() {
                         ausreichen in Würde zu leben, ohne etwas beitragen zu müssen.
                     </h4>
                     <div className='what-is-ubi'>
-                        <div><img src='public/icons/time copy.png' width={100} height={100} alt="time"/>
+                        <div><img src='public/assets/images/time copy.png' width={100} height={100} alt="time"/>
                             <div className='text'>
                                 <div className='text-title'>ZYKLISCH</div>
                                 Es ist eine sich wiederholende Zahlung (z.B. Monatlich) anstelle einer einmaligen
@@ -130,7 +130,7 @@ function German() {
 
                     <div className='support-points'>
                         <a className='support-points-img' href="http://eepurl.com/icEbcT">
-                            <img src='volunteer.png' alt="volunteer"/>
+                            <img src='https://grundeinkommens-de.herokuapp.com/volunteer.png' alt="volunteer"/>
                         </a>
                         <div className='support-points-title'>VOLUNTEER</div>
                         Tritt einem unserer Deep Canvassing Gruppen in Schlüsselgebieten in Deutschland bei.
