@@ -19,23 +19,23 @@ function Home() {
 <h4>A society that guarantees every member a periodic payment, enough to enable life in dignity without the necessity to provide anything in return. 
 </h4>
 <div className='what-is-ubi' >
-    <div><img src='icons/time copy.png' width={100} height={100} alt="time"/>
+    <div><img src='https://grundeinkommens-de.s3.us-west-2.amazonaws.com/time+copy.png' width={100} height={100} alt="time"/>
       <div className='text'> <div className='text-title'>PERIODIC</div>  It is a recurring payment (for example, every month) instead of a one-off grant.</div>
     </div>
 
-    <div><img src='icons/coin copy.png' width={100} height={100} alt="coin"/>
+    <div><img src='https://grundeinkommens-de.s3.us-west-2.amazonaws.com/coin+copy.png' width={100} height={100} alt="coin"/>
     <div className='text'><div className='text-title'>CASH PAYMENT</div>  It is paid in cash, allowing receiptients to convert their benefits into whatever they may like.</div>
     </div>
 
-    <div><img src='icons/world copy.png' width={100} height={100} alt="apple"/>
+    <div><img src='https://grundeinkommens-de.s3.us-west-2.amazonaws.com/world+copy.png' width={100} height={100} alt="world"/>
     <div className='text'><div className='text-title'>UNIVERSAL</div>  It is paid to all, not targeted to a specific population.</div>
     </div>
 
-    <div><img src='icons/puzzle copy.png' width={100} height={100} alt="puzzle"/>
+    <div><img src='https://grundeinkommens-de.s3.us-west-2.amazonaws.com/puzzle+copy.png' width={100} height={100} alt="puzzle"/>
     <div className='text'><div className='text-title'>INDIVIDUAL</div> It is paid on an individual basis (versus house-hold based).</div>
     </div>
 
-    <div><img src='icons/scales copy.png' width={100} height={100} alt="shield"/>
+    <div><img src='https://grundeinkommens-de.s3.us-west-2.amazonaws.com/scales+copy.png' width={100} height={100} alt="scales"/>
     <div className='text'><div className='text-title'>UNCONDITIONAL</div>  It involves no work requirements or sanctions; it is accessible to those in and out of work, voluntarily or not.</div>
     </div>
     </div>
@@ -104,21 +104,21 @@ Through new methods of political canvassing and by promoting a new narrative aro
   
 <div className='support-points'>
 <a  className='support-points-img' href="http://eepurl.com/icEbcT">
-  <img src='icons/volunteer.png' alt="volunteer"/>
+  <img src='https://grundeinkommens-de.s3.us-west-2.amazonaws.com/volunteer.png' alt="volunteer"/>
 </a>
 <div className='support-points-title'>VOLUNTEER</div>
 Join one of our Deep Canvassing teams in key areas around Germany.
 </div>
 <div className='support-points'>
 <a  className='support-points-img' href="http://www.google.com">
-  <img src='icons/donate.png' alt="donate"/>
+  <img src='https://grundeinkommens-de.s3.us-west-2.amazonaws.com/donate.png' alt="donate"/>
 </a>
 <div className='support-points-title'>DONATE</div>
 Our campaign runs mostly on individual donations by people like you who want to see a Universal Basic Income come to Germany. 
 </div>
 <div className='support-points'>
 <a  className='support-points-img' href="http://eepurl.com/icEbcT">
-  <img src='icons/email.png' alt="email"/>
+  <img src='https://grundeinkommens-de.s3.us-west-2.amazonaws.com/email.png' alt="email"/>
 </a>
 <div className='support-points-title'>EMAIL SIGN UP</div>
 Add your email to our supporters' list to receive updates from our campaign, such as ongoing projects and upcoming opportunities to support us in your area.
@@ -129,17 +129,17 @@ Add your email to our supporters' list to receive updates from our campaign, suc
 
 <div className='about-us'>
 <div>
-<img src='icons/tom.jpg' width={300} alt="person"/>
+<img src='https://grundeinkommens-de.s3.us-west-2.amazonaws.com/tom.jpg' width={300} alt="person"/>
 <div className='bios-name'>Tom Peterson</div>
 <div className='bio'>I am the Founder and Lead of this campaign. I am 21 years old and recently moved to Berlin to work toward promoting a UBI. My political experience is primarily as an activist here in Germany, where I have been an organizer for climate strikes in Bad Oldesloe, where I grew up. I have acquired vital experiences and resources from building a Deep Canvassing campaign at Zukunftswahl/Justice is Global Europe and my internship with Justice is Global US. In JIG US, I was a team lead on our US-China Narratives Deep Canvassing project. My goal is to see a world less tied to money and more tied to individual, community, and world progress.  </div>
 </div>
 <div>
-<img src='icons/daphne.jpg' width={300} alt="person"/>
+<img src='https://grundeinkommens-de.s3.us-west-2.amazonaws.com/daphne.jpg' width={300} alt="person"/>
 <div className='bios-name'>Daphne Nounesi</div>
 <div className='bio'>I am 27 and based in Greece and Canada. I have always been concerned with socio-political affairs and matters of economic justice and I have a Master’s degree in Political Science from the Geneva Graduate Institute. I have experience as a deep canvasser with JIG/People’s Action and have worked with several grassroots and international organizations in grants and project management, administration, diplomacy, and research. As the campaign’s Project Manager, I worked to develop organizational strategy and oversaw task management.</div>
 </div>
 <div>
-<img url='https://grundeinkommens-de.s3.us-west-2.amazonaws.com/connor.jpg' width={300} alt="person"/>
+<img src='https://grundeinkommens-de.s3.us-west-2.amazonaws.com/connor.jpg' width={300} alt="person"/>
 <div className='bios-name'>Connor Woodall</div>
 <div className='bio'>I am 28 and from Rhode Island, USA. My role on this team is the Deep Canvassing Coordinator as well as the Head of Narrative Development. I have a Master’s in Political Science from the University of Colorado Denver. My experiences range from local and state government as well as national and international non-profit progressive organizing. I bring to this team my knowledge of the nuances of human systems, my experience with Deep Canvassing, and my ability to influence others to think differently.</div>
 </div>

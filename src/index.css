@@ -7,7 +7,7 @@ body {
   font-size: 1.5rem;
   font-family: 'Times New Roman', Times, serif;
   align-items: center;
-  background-image: url(../public/long_banner.jpg);
+  background-image: url(https://grundeinkommens-de.s3.us-west-2.amazonaws.com/long_banner.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   color: #ada282;
@@ -33,7 +33,7 @@ img {
     overflow-x: hidden;
     font-size: large;
     flex-wrap: wrap;
-    background-image: url(../public/mobile_banner.jpg);
+    background-image: url(https://grundeinkommens-de.s3.us-west-2.amazonaws.com/mobile_banner.jpg);
   } 
   
 }
