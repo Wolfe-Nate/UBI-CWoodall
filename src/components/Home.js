@@ -139,7 +139,7 @@ Add your email to our supporters' list to receive updates from our campaign, suc
 <div className='bio'>I am 27 and based in Greece and Canada. I have always been concerned with socio-political affairs and matters of economic justice and I have a Master’s degree in Political Science from the Geneva Graduate Institute. I have experience as a deep canvasser with JIG/People’s Action and have worked with several grassroots and international organizations in grants and project management, administration, diplomacy, and research. As the campaign’s Project Manager, I worked to develop organizational strategy and oversaw task management.</div>
 </div>
 <div>
-<img src='icons/connor.jpg' width={300} alt="person"/>
+<img url='https://grundeinkommens-de.s3.us-west-2.amazonaws.com/connor.jpg' width={300} alt="person"/>
 <div className='bios-name'>Connor Woodall</div>
 <div className='bio'>I am 28 and from Rhode Island, USA. My role on this team is the Deep Canvassing Coordinator as well as the Head of Narrative Development. I have a Master’s in Political Science from the University of Colorado Denver. My experiences range from local and state government as well as national and international non-profit progressive organizing. I bring to this team my knowledge of the nuances of human systems, my experience with Deep Canvassing, and my ability to influence others to think differently.</div>
 </div>

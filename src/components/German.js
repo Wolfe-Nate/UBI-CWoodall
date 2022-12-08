@@ -33,7 +33,7 @@ function German() {
                             </div>
                         </div>
 
-                        <div><img src='https://grundeinkommens-de.s3.us-west-2.amazonaws.com/world+copy.png' width={100} height={100} alt="apple"/>
+                        <div><img src='https://grundeinkommens-de.s3.us-west-2.amazonaws.com/world+copy.png' width={100} height={100} alt="world"/>
                             <div className='text'>
                                 <div className='text-title'>UNIVERSELL</div>
                                 Es wird an jeden gezahlt, nicht abgezielt auf einen bestimmten Bevölkerungsteil.
