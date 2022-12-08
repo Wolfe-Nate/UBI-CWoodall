@@ -4,10 +4,13 @@ import Nav from './Nav'; //english nav bar
 
 function German() {
     return (
-        <div className='body'>
+        <div>
+            <div>
+    <a className='translate' href="/">Translate to English</a>
+    </div>
             <Nav></Nav>
 
-            <div className='main-container'>
+            <div className='container'>
                 <div className='what-is-ubi'>
                     <h2>WAS IST DAS BEDINGUNGSLOSE GRUNDEINKOMMEN? </h2>
 

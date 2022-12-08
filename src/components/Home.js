@@ -5,16 +5,15 @@ function Home() {
   return (
     <div>
       <div>
-     <a className='translate' href="/German">Translate</a>
+    <a className='translate' href="/German">ins Deutsche übersetzen</a>
      </div>
       <Nav></Nav>
-       
+    
 
 <div className='container'> 
 
   <div className='what-is-ubi'>
   <h2>WHAT IS UNIVERSAL BASIC INCOME? </h2>
-  {/* <button><Link to="/German"> German </Link></button> */}
   
 <h4>A society that guarantees every member a periodic payment, enough to enable life in dignity without the necessity to provide anything in return. 
 </h4>

@@ -11,7 +11,6 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   color: #ada282;
-  padding: 5px;
   flex-direction: column;
   flex-wrap: nowrap;
   width: 100%;
@@ -29,7 +28,6 @@ img {
 
 @media (max-width: 992px){
   body{  
-    display: block;
     overflow-x: hidden;
     font-size: large;
     flex-wrap: wrap;
@@ -111,7 +109,7 @@ code {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    margin-top: 18%;
+    margin-top: 28%;
 }
 
 .icons {
@@ -282,9 +280,7 @@ padding-bottom: 1em;
 .canvassing-container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 80%;
-  margin-left: 12%;
-  margin-right: 12%;
+  justify-content: center;
   max-height: 50%;
 }
 
